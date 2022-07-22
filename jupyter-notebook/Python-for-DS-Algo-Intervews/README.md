@@ -4,11 +4,15 @@
 
 Here I have downloaded the jupyter notebook to follow along the <a href="https://www.udemy.com/python-for-data-structures-algorithms-and-interviews">Python for Data Structures, Algorithms, and Interviews</a> course in Udemy. This is a further effort to become more effective in my job hunting quest.
 
-# Installing Jupyter Notebook
+<hr>
 
-This was rather easy. Since I am doing this al while ona linux environment (Fedora 36) I already had Python and PIP installed. All I had to do was:
+## Installing Jupyter Notebook
+
+This was rather easy. Since I am doing this all while on a linux environment (Fedora 36), I already had Python and PIP installed. All I had to do was:
 
 <code>pip install notebook</code><br>
+
+<hr>
 
 ## Run Jupyter Notebook
 
