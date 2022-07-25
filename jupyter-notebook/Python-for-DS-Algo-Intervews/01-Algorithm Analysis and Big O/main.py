@@ -1,49 +1,17 @@
-from datetime import datetime
-import numpy as np
-# concatenate
+def sum1(n):
+    final_sum = 0
+
+    for x in range(n+1):
+        final_sum += x
+
+    return final_sum
 
 
-def method1():
-    l = []
-    for n in range(10000):
-        l = l + [n]
+def sum2(n):
+    return (n * (n + 1))//2
 
 
-def method2():
-    l = []
-    for n in range(10000):
-        l.append(n)
+print(sum1(10))  # 55
+print(sum2(10))  # 55
 
-
-def method3():
-    l = [n for n in range(10000)]
-
-
-def method4():
-    l = list(range(10000))
-
-
-start = datetime.timestamp(datetime.utcnow())
-method1()
-end = datetime.timestamp(datetime.utcnow())
-
-print("\nThe Elapsed time: {:.2f} second".format((end - start)))
-
-start = datetime.timestamp(datetime.utcnow())
-method2()
-end = datetime.timestamp(datetime.utcnow())
-
-print("\nThe Elapsed time: {:.2f} second".format((end - start)))
-
-
-start = datetime.timestamp(datetime.utcnow())
-method3()
-end = datetime.timestamp(datetime.utcnow())
-
-print("\nThe Elapsed time: {:.2f} second".format((end - start)))
-
-start = datetime.timestamp(datetime.utcnow())
-method4()
-end = datetime.timestamp(datetime.utcnow())
-
-print("\nThe Elapsed time: {:.2f} second".format((end - start)))
+# which algorithm is better!?!?!?!?
